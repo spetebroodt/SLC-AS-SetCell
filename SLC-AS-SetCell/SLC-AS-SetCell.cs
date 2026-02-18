@@ -69,7 +69,7 @@ namespace SLCASSetCell
 			}
 
 			var columnIdString = engine.GetScriptParam(11).Value.Trim().TrimStart('[', '"').TrimEnd('"', ']');
-			if (String.IsNullOrWhiteSpace(columnIdString) || Int32.TryParse(columnIdString, out int columnId))
+			if (String.IsNullOrWhiteSpace(columnIdString) || !Int32.TryParse(columnIdString, out int columnId))
 			{
 				engine.ExitFail($"Invalid Column ID: '{columnIdString}'");
 				return;
