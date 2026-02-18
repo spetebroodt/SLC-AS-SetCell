@@ -1,0 +1,19 @@
+type: Automation
+id: 441dd95e-da20-4eed-ba13-b6c10c87a057
+
+title: Set Cell
+
+source_code_url: https://github.com/SkylineCommunications/SLC-AS-SetCell
+
+owners:
+  - name: Michiel Oda
+  - name: Jan Staelens
+
+# [Optional]
+# Tags that allow you to categorize your Catalog items.
+#   Max number of tags: 5
+#   Max length: 50 characters.
+#   Cannot contain newlines.
+#   Cannot contain leading or trailing whitespace characters.
+tags:
+  - GQI-Supported
